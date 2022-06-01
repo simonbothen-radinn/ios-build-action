@@ -82,6 +82,10 @@ inputs:
     description: "Path for Swift Package Manager dependencies"
     required: false
     default: ""
+  clean-build:
+    description: "Clean the build folder"
+    required: false
+    default: "true"
 runs:
   using: "node12"
   main: "dist/index.js"
